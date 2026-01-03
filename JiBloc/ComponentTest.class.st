@@ -1,5 +1,5 @@
 Class {
-	#name : 'ComponentTests',
+	#name : 'ComponentTest',
 	#superclass : 'TestCase',
 	#category : 'JiBloc-Tests',
 	#package : 'JiBloc',
@@ -7,7 +7,7 @@ Class {
 }
 
 { #category : 'tests' }
-ComponentTests >> testName [ 
+ComponentTest >> testName [ 
 
 self assert: (JiComponent new: 'TestComponent') name equals: 'TestComponent' 
 ]
