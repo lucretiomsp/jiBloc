@@ -17,12 +17,27 @@ Class {
 	#superclass : 'ToElement',
 	#instVars : [
 		'style',
-		'stylesDictionary'
+		'stylesDictionary',
+		'minValue',
+		'maxValue',
+		'currentValue'
 	],
 	#category : 'JiBloc-Sliders',
 	#package : 'JiBloc',
 	#tag : 'Sliders'
 }
+
+{ #category : 'accessing' }
+JiSlider >> currentValue [
+
+	^ currentValue
+]
+
+{ #category : 'accessing' }
+JiSlider >> currentValue: anObject [
+
+	currentValue := anObject
+]
 
 { #category : 'initialization' }
 JiSlider >> initialize [
@@ -51,6 +66,30 @@ JiSlider >> initializeStylesDictionary [
 	at: #twoValueVertical put: JiSkinTwoValueVertical ; 
 	at: #threeValueHorizontal put: JiSkinThreeValueHorizontal ;
 	at:  #threeValueVertical put: JiSkinThreeValueVertical 
+]
+
+{ #category : 'accessing' }
+JiSlider >> maxValue [
+
+	^ maxValue
+]
+
+{ #category : 'accessing' }
+JiSlider >> maxValue: anObject [
+
+	maxValue := anObject
+]
+
+{ #category : 'accessing' }
+JiSlider >> minValue [
+
+	^ minValue
+]
+
+{ #category : 'accessing' }
+JiSlider >> minValue: anObject [
+
+	minValue := anObject
 ]
 
 { #category : 'accessing' }
