@@ -1,3 +1,6 @@
+"
+Superclass for all Slider Styles
+"
 Class {
 	#name : 'JiSkinSlider',
 	#superclass : 'ToRawSkin',

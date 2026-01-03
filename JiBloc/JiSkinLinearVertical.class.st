@@ -1,3 +1,6 @@
+"
+A traditional vertical slider.
+"
 Class {
 	#name : 'JiSkinLinearVertical',
 	#superclass : 'JiSkinSlider',

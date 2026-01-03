@@ -1,3 +1,6 @@
+"
+A traditional horizontal slider.
+"
 Class {
 	#name : 'JiSkinLinearHorizontal',
 	#superclass : 'JiSkinSlider',
