@@ -3,7 +3,7 @@ The base class for all JiBloc ui classes.
 "
 Class {
 	#name : 'JiComponent',
-	#superclass : 'BlElement',
+	#superclass : 'ToElement',
 	#instVars : [
 		'name'
 	],
